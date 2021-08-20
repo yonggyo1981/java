@@ -24,8 +24,8 @@ public class Constants {
 	    String text4 = new String("ABCD");
 	    System.out.println(text3 == text4);
 	    
-	    int num1 = 10; // 4바이트 num1 공간 10복사 대입
-	    int num2 = 10; // 4바이트 num2 공간  10복사 대입 
+	    int num1 = 10;
+	    int num2 = 10;
 	    System.out.println(num1 == num2);
 		
 	}
