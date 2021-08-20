@@ -11,6 +11,6 @@ public class CastEx3 {
 		System.out.println((int)(num1 * num2));
 		
 		char ch1 = 'วั';
-		System.out.println(ch1); 
+		
 	}
 }
