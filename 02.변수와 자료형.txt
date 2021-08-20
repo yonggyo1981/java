@@ -228,3 +228,11 @@ char -> 2byte
 (int)ch1
 int ch2 = 67;
 (char)ch2
+
+
+자료형 
+	1) 기본 자료형 (int, char, boolean ... 숫자, 문자, 논리값 ..)
+	2) 참조 자료형 (인스턴스 자료형)
+	    Person person = new Person();
+		
+		String text1 = "ABCD";
