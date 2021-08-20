@@ -1,0 +1,11 @@
+package chapter2;
+
+public class DoubleEx2 {
+	public static void main(String[] args) {
+		var num = 10;
+		var dNum = 10.0;
+		var str = "Hello";
+		
+		str = 10;
+	}
+}
