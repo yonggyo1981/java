@@ -7,11 +7,6 @@ public class Operator5 {
 		String result = (num1 > num2)?"크다":"작다";
 		System.out.println(result);
 		
-		String result = "";
-		if (num1 > num2) {
-			result = "크다";
-		} else {
-			
-		}
+
 	}
 }

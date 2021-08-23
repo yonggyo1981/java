@@ -1,0 +1,7 @@
+package chapter4;
+
+public class LoopEx2 {
+	public static void main(String[] args) {
+		int num = 1;
+	}
+}

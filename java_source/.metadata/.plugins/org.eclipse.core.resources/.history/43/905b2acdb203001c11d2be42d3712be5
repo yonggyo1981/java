@@ -1,0 +1,18 @@
+package chapter4;
+
+public class SwitchEx1 {
+	public static void main(String[] args) {
+		int rank = 3;
+		char medalColor;
+		
+		if (rank == 1) {
+			medalColor = 'G';
+		} else if (rank == 2) {
+			medalColor = 'S';
+		} else if (rank == 3) {
+			medalColor = 'B';
+		} else {
+			medalColor = 'A';
+		}
+	}
+}

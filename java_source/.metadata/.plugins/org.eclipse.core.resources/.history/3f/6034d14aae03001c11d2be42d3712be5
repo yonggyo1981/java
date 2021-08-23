@@ -1,0 +1,13 @@
+package chapter4;
+
+public class IfEx1 {
+	public static void main(String[] args) {
+		int num = 10;
+		if (num == 10)
+			System.out.println("10 입니다.");
+			System.out.println("열 입니다.");
+		else {
+				
+		}
+	}
+}
