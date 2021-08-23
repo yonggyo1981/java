@@ -1,0 +1,7 @@
+package chapter5;
+
+public class MethodEx2 {
+	void divide(int num1, int num2) {
+		
+	}
+}
