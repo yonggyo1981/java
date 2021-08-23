@@ -23,15 +23,5 @@ public class LoopEx9 {
 			i++;
 		}
 		*/
-		int i = 1;
-		do {
-			int j = 1;
-			do {
-				System.out.println(i + " X " + j + " = " + (i*j));
-				j++;
-			} while ( j <= 9);
-			System.out.println();
-			i++;
-		} while ( i <= 9);
 	}
 }
