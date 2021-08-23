@@ -1,0 +1,9 @@
+package chapter5;
+
+public class MethodEx1 {
+	int sum(int x) {
+		int result = x * 2 + 2;
+		
+		return result;
+	}
+}

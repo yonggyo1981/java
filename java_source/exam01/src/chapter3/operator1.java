@@ -1,5 +1,7 @@
 package chapter3;
 
+import chapter4.IfEx2;
+
 public class operator1 {
 	public static void main(String[] args) {
 		int num = 10;

@@ -22,5 +22,7 @@ public class SwitchEx3 {
 			default:
 				System.out.println("없는 층 입니다.");
 		}
+		
+		a.b.c.d.exam ex = new a.b.c.d.exam();
 	}
 }

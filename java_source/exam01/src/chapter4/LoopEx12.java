@@ -14,5 +14,8 @@ public class LoopEx12 {
 		} else {
 			System.out.println("A가 더 크다");
 		}
+		/// A - 65
+		// B - 66
+		
 	}
 }
