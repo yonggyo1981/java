@@ -17,7 +17,7 @@ public class StudentTest {
 		
 		IfEx1 ex2 = new IfEx1();
 		*/
-		//ArrayList<Student> studentList = new ArrayList<Student>();
+		ArrayList<Student> studentList = new ArrayList<Student>();
 		
 		
 	}
