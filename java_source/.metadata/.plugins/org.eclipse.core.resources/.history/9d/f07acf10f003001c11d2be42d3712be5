@@ -10,4 +10,6 @@ public class Student {
 	String address;
 	
 	Subject subject;
+	
+	chapter4.Student st = new chapter4.Student();
 }

@@ -10,4 +10,8 @@ public class Student {
 	String address;
 	
 	Subject subject;
+	
+	public static void main(String[] args) {
+		
+	}
 }
