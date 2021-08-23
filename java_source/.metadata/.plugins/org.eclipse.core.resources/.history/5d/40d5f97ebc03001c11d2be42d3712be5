@@ -1,0 +1,9 @@
+package chapter4;
+
+public class LoopEx5 {
+	public static void main(String[] args) {
+		do {
+			System.out.println("실행 되나요?");
+		} while(false);
+	}
+}
