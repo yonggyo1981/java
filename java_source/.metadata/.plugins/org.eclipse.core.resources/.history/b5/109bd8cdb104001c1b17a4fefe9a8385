@@ -1,0 +1,10 @@
+package chapter6;
+
+public class TransEx {
+	public static void main(String[] args) {
+		Student st1 = new Student("학생1", 10000);
+		Student st2 = new Student("학생2", 8000);
+		
+		Bus bus66 = new Bus(66, 1250);
+	}
+}

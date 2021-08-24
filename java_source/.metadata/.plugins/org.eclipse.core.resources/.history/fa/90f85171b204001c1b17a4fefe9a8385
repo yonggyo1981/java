@@ -1,0 +1,10 @@
+package chapter6;
+
+public class Subway {
+	String lineNum;
+	int fare;
+	int profit;
+	int passengerCount;
+	
+	public Subway(int lineNum, )
+}

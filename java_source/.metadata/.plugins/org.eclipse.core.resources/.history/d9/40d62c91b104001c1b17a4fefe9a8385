@@ -1,0 +1,7 @@
+package chapter6;
+
+public class TransEx {
+	public static void main(String[] args) {
+		Student st1 = new Student("ÇÐ»ý1", 10000);
+	}
+}

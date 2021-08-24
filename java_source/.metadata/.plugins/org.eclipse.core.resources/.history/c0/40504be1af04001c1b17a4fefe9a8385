@@ -1,0 +1,7 @@
+package chapter6;
+
+public class Bus {
+	int num; // 노선번호
+	int passengerCount; // 승객의 수
+	int fare; // 버스 요금
+}

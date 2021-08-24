@@ -1,0 +1,14 @@
+package chapter6;
+
+public class Student {
+	String name; // 학생이름
+	int money; 
+	
+	public void rideBus() {
+		
+	}
+	
+	public void rideSubway() {
+		
+	}
+}

@@ -5,6 +5,22 @@ public class Calendar {
 	private int month;
 	private int day;
 	
+	public Calendar() {
+		this(2021, 8, 24); // super() -> 부모 클래스 생성자
+		
+		System.out.println("생성자 이후");
+	}
+		
+	public Calendar(int year, int month, int day) {
+		this.year = year;
+		this.month = month;
+		this.day = day;
+	}
+	
+	public  Calendar returnThis() {
+		return this;
+	}
+	
 	public void setYear(int year) {
 		this.year = year;
 	}

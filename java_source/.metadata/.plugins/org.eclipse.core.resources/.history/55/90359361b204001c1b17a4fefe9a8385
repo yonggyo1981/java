@@ -1,0 +1,9 @@
+package chapter6;
+
+public class Subway {
+	int lineNum;
+	int fare;
+	int profit;
+	int passengerCount;
+	
+}

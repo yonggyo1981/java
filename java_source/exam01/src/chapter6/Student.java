@@ -1,0 +1,23 @@
+package chapter6;
+
+public class Student {
+	String name; // 학생이름
+	int money; 
+	
+	public Student(String name, int money) {
+		this.name = name;
+		this.money = money;
+	}
+	
+	public void rideBus(Bus bus) {
+		bus.collect(this); // this -> Student s
+	}
+	
+	public void rideSubway(Subway subway) {
+		subway.collect(this);
+	}
+	
+	public void showInfo() {
+		System.out.println(this.name + " : " + this.money);
+	}
+}
