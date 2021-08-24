@@ -14,5 +14,14 @@ public class TransEx {
 		st2.showInfo();
 		
 		bus66.showInfo();
+		
+		Subway sub = new Subway("인천2호선", 1250);
+		st1.rideSubway(sub);
+		st2.rideSubway(sub);
+		
+		st1.showInfo();
+		st2.showInfo();
+		
+		sub.showInfo();
 	}
 }

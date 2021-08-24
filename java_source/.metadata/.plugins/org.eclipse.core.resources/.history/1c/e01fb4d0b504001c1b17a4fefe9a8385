@@ -1,0 +1,8 @@
+package chapter6;
+
+public class StaticEx1 {
+	public static void main(String[] args) {
+		Student st = new Student("¿Ã∏ß1", 1500);
+		
+	}
+}

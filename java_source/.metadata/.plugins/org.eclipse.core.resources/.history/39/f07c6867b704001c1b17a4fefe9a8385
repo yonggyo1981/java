@@ -1,0 +1,14 @@
+package chapter6;
+
+public class StaticEx1 {
+	public static void main(String[] args) {
+		Student st1 = new Student("이름1", 1500);
+		Student st2 = new Student("이름2", 2000);
+		
+		st1.studentNum = 1001;
+		System.out.println("st2:" + st2.studentNum);
+		st2.studentNum += 10;
+		System.out.println("st1:" + st1.studentNum);
+		
+	}
+}
