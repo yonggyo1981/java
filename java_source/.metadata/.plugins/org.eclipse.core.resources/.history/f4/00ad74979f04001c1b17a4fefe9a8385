@@ -19,18 +19,10 @@ public class Calendar {
 		this.month = month;
 	}
 	
-	public int getMonth() {
-		return month;
-	}
-	
 	public void setDay(int day) {
 		if (day < 1) day = 1;
 		if (day > 31) day = 31;
 		if (this.month == 2 && day > 28) day = 28;
 		this.day = day;
-	}
-	
-	public int getDay() {
-		return day;
 	}
 }

@@ -6,7 +6,5 @@ public class CalendarTest {
 		cal.setYear(2021);
 		cal.setMonth(8);
 		cal.setDay(24);
-		
-		System.out.println(cal.getYear() + "-" + cal.getMonth() + "-" + cal.getDay());
 	}
 }
