@@ -1,0 +1,9 @@
+package chapter5;
+
+public class Student2 {
+	int studentID;
+	int age;
+	String studentName;
+	String subjectKor;
+	int subjectKorScore;
+}

@@ -1,0 +1,9 @@
+package access;
+
+import chapter5.AccessEx1;
+
+public class AccessTest {
+	public static void main(String[] args) {
+		
+	}
+}

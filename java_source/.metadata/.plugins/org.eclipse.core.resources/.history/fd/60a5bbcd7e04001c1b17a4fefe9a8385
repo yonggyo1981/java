@@ -1,0 +1,9 @@
+package chapter5;
+
+public class Order {
+	long orderNum;
+	String memId;
+	String orderDate;
+	String memNm;
+	String orderGoodsNum;
+}

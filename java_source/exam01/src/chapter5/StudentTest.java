@@ -1,24 +1,19 @@
 package chapter5;
 
-//import chapter4.SwitchEx1;
-//import chapter4.*;
-
-// java.util.ArrayList 
-import java.util.*;
-
 public class StudentTest {
 	public static void main(String[] args) {
-		Student student = new Student();
-		System.out.println(student);
+		Student student1 = new Student();
+		Student student2 = new Student();
+		Student student3 = student1; // student3에는 student1의 주소
+				
+		System.out.println("student1 = " + student1);
+		System.out.println("student2 = " + student2);
 		
-		/*
-		SwitchEx1 ex1 = new SwitchEx1();
-		System.out.println(ex1);
+		student1.setStudentName("이름1");
+		student2.setStudentName("이름2");
 		
-		IfEx1 ex2 = new IfEx1();
-		*/
-		//ArrayList<Student> studentList = new ArrayList<Student>();
-		
-		
+		System.out.println("student1 = " + student1.getStudentName());
+		System.out.println("student2 = " + student2.getStudentName());
+		System.out.println("student3 = " + student3.getStudentName());
 	}
 }

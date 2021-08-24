@@ -1,0 +1,16 @@
+package chapter5;
+
+public class Person {
+	int age;
+	String name;
+	boolean isMarried;
+	int children;
+	
+	public void showInfo() {
+		String isMarriedStr = isMarried?"°áÈ¥":"¹ÌÈ¥";
+		System.out.println("³ªÀÌ = " + age);
+		System.out.println("ÀÌ¸§ = " + name);
+		System.out.println("°áÈ¥ ¿©ºÎ = " + isMarriedStr);
+		System.out.println("ÀÚ³à ¼ö = " + children);
+	}
+}
