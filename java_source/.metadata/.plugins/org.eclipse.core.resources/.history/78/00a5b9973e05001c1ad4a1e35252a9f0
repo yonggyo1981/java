@@ -1,0 +1,17 @@
+package chapter6_1;
+
+public class StudentTest {
+	public static void main(String[] args) {
+		Student st1 = new Student();
+		Student st2 = new Student();
+		
+		// 인스턴스 변수 -> 각 생성된 인스턴스 공간에 존재, 공유 X
+		st1.num1 = 10;
+		st2.num1 = 20;
+		System.out.println(st1.num1);
+		System.out.println(st2.num1);
+		
+		//st1.num2 = 1000;
+		//System.out.println("st2.num2 = " + st2.num2);
+	}
+}

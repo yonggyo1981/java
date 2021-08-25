@@ -1,0 +1,10 @@
+package chapter6_1;
+
+public class Student {
+	int num1; // 멤버 변수 -> 인스턴스변수
+	static int num2; // static 변수
+	
+	static void myStaticMethod() {
+		num1 = 10;
+	}
+}

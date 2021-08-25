@@ -1,0 +1,6 @@
+package chapter6_1;
+
+public class Student {
+	int num1;
+	static int num2;
+}
