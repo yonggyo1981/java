@@ -1,0 +1,6 @@
+package chapter6_1;
+
+public class Student2 {
+	static int serialNum;
+	
+}
