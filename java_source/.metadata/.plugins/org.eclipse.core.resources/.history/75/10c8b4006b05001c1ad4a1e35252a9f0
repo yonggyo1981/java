@@ -1,0 +1,13 @@
+package chapter7;
+
+public class ArrayEx1 {
+	public static void main(String[] args) {
+		int[] nums = new int[4]; // 빈 메모리 공간에 int 자료형 4개를 생성
+		
+		int[] nums2 = new int[] { 10, 20, 30, 40 }; // 4개 공간 생성,4개 값 대입
+		System.out.println(nums[0]); // 첫번째 4바이트 공간 int
+		
+		
+		int[] nums3 = { 10, 20, 30, 40 };
+	}
+}
