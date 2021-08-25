@@ -63,3 +63,4 @@ int[] nums = new int[10];
 
 Book[] library = new Book[4]; // Book인스턴스가 생성되면 인스턴의 주소가 저장될 Book 참조 자료형의 공간 4개가 생성 
 현재 생성된 인스턴스가 없으므로 빈 공간!! -> null
+
