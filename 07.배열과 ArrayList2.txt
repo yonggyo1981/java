@@ -146,3 +146,14 @@
 		Student 클래스 -> ArrayList -> 3개 -> 출력
 		
 4. 배열 응용프로그램 
+	학생 성적 출력 프로그램 - ArrayList 
+	클래스 
+		Student 
+			+ 과목 목록
+			
+		Subject 
+P230 Q1 - 같은 자료형 
+
+P199~230
+정독 -> 예제
+
