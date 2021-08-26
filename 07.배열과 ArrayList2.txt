@@ -31,9 +31,34 @@
 		자료형[] 변수명;
 		변수명 = new 자료형[] { 값1, 값2, 값3 };
 		
-		P199
+		물리적 위치 == 논리적 위치와 동일 
+		인덱스 번호는 0부터 시작
+		
+		ArrayList 
+			.size() -> 요소의 갯수(공간의 갯수 X)
+		
+		char -> 정수(2byte 양의 정수)
+		
+		'A' -> 65 -> 
+		기본자료형 -> 숫자
+		
+		'A'(char) -> (int)'A' + 1(int)
+		65 + 1
+		
+		String 문자열
+		String text = "ABC";
+		private final char[] 
 		
 		
+		참조 자료형의 배열
+		
+		211 - 나혼자 코딩
+		클래스명 Student 
+					- studentID, name 
+					- showStudentInfo() 
+					  - studentID, name  출력
+					  
+		Student 3명의 배열을 만들고  -> 생성 -> for
 		
 		
 2. 다차원 배열
