@@ -95,12 +95,36 @@ Primate aHuman = new Human();
 	메서드 -> 멤버 변수를 이용하여 기능 수행 
 			-> 소스 자체가 변경 되지 않는다(외부에 입력된 데이터를 이용)
 			
-			
 	
+	Customer vc = new VIPCustomer(); 
+	멤버변수와 메서드는 -> Customer에 정의된 범위 내에서만 호출
+	호출되는 메서드는 생성된 인스턴스에 따라서 호출
 	
-
+	재정의된 calcPrice -> 현재 생성된 인스턴스인 VIPCustomer에 정의된 calcPrice
+	
+	Customer vc = new VIPCustomer(); 
+	vc.calPrice  - 1) Customer 2)VIPCustomer
+	
+	다형성
+		- 하나의 코드가 여러 자료형으로 구현되어 실행되는 것을 말합니다.
+		(상속 관계)
+		
+		Animal 
+			- Human -> Animal 보다 구체적, 추가 메서드, 속성 
+					Human 인스턴스, Animal 인스턴스
+			- Tiger -> Animal 보다 구체적, 추가 메서드, 속성 
+					Tiger 인스턴스, Animal 인스턴스 
+			- Eagle -> Animal 보다 구체적, 추가 메서드, 속성 
+					Eagle 인스턴스, Animal 인스턴스
+					
+					
+		instanceof 
+		
+		
+	
 6. 다운캐스팅과 instanceof 
-
+	상위 클래스 형 -> 하위 클래스형으로 형변환 -> 다운 캐스팅
+	
 
 
 생성자 메서드의 호출 이유? 
@@ -110,3 +134,12 @@ Primate aHuman = new Human();
 
 
 다형성
+
+
+Gold 그룹
+제품 할인 10%
+포인트 적립율  2%
+전문상담원 X
+
+
+
