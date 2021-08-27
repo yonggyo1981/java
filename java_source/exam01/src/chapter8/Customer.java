@@ -1,5 +1,7 @@
 package chapter8;
 
+
+
 public class Customer  {
 	protected int CustomerID; // 고객번호
 	protected String CustomerName; // 고객 이름 
@@ -7,11 +9,21 @@ public class Customer  {
 	protected int bonusPoint; // 적립금
 	protected double bonusRatio; // 1%
 	
+	/*
 	public Customer() {
 		customerGrade = "SILVER";
 		bonusRatio = 0.01;
 		System.out.println("Customer 생성자");
 	}
+	*/
+	public Customer(int CustomerID, String CustomerName) {
+		this.CustomerID = CustomerID;
+		this.CustomerName = CustomerName;
+		
+		customerGrade = "SILVER";
+		bonusRatio = 0.01;
+	}
+	
 	
 	public int calcPrice(int price) {
 		int bonus = (int)(price * bonusRatio); //적립 비율에 따른 적립금

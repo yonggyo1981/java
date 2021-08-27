@@ -47,9 +47,47 @@ VIPCustomer2 생성자 - 자식 클래스의 인스턴가 생성
 
 private -> 정보은닉 -> protected 
 
+super 
+	1) 부모를 부르는 예약어
+		부모 인스턴의 주소, 생성자 메서드
+
+
+P247 - 1분복습 
+1) 하위클래스가 생성될때는 상위클래스의 "생성자"가 먼저 호출
+2) super();
+3) super();
+
+
 2. 상속에서 클래스 생성과 형 변환 
+Customer vc = new VIPCustomer(); --> OK 
+VIPCustomer vip = new Customer(); --> NOT OK
+
+형변환된 vc가 가리키는 곳
+Customer vc = new VIPCustomer(); --> OK 
+VIPCustomer에서 접근 가능한 멤버변수와 메서드는 Customer에 정의되어 있는 것으로 한정
+
+
+업캐스팅(하위 -> 상위 형변환)
+
+포유류(Mammal) -- 영장류(Primate) - 인간(Human)
+                      --- 호랑이(Tiger)
+
+Primate aHuman = new Human();
+(Human은 Primate의 모든 속성과 메서드를 소유 + a(Human에만 것)
+
 3. 메서드 오버라이딩
+	상위클래스의 정의핸 메서드를 하위클래스에서 재정의
+	조건) 반환형, 메서드 이름, 매개변 수 갯수, 매개변수 자료형이 모두 같아 한다.
+	
+	조건의 실수를 방지하기 위해서 애노테이션
+	@Override -> 맞지않는 재정의 메서드는 오류 발생 
+
+	
+
 5. 다형성 활용하기
+	하위클래스가 상위 클래스 인턴스로 변환
+	
+
 6. 다운캐스팅과 instanceof 
 
 
