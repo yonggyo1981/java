@@ -92,9 +92,35 @@ ManualCar - 사람이 운전하는 자동차 - 사람이 운전, 사람이 멈�
 시동을 걸고, 시동을 끄는 동작은 공통(공일) -> 구현된 메서드
 (startCar(), turnOff())
 
-운전과, 멈춤은 클래스(자율주행, 사람이 주행)마다 다르다 -> 정의된 메서드로 구현(추상 메서드)
+운전과, 멈춤은 클래스(자율주행, 사람이 주행)마다 다르다 -> 정의된 메서드로 구현(추상 메서드 - drive, stop)
 
 run -> 자동차가 운전하는 일련의 절차(템플릿 메서드)
+
+P296 
+
+Player
+	- PlayerLevel level  - 초급자레벨(BeginnerLevel), 중급자 레벨(AdvancedLevel), 고급자레벨(SuperLevel)
+	- getLevel()
+	- updateLevel(PlayerLevel)
+	- play();
+	
+PlayerLevel  - 추상 클래스
+	run(), jump(), turn(), showLevelMessage();
+	go(int) - 게임이 시작되면 실행되는 순서(템플릿 메서드)
+			 
+	
+	BeginnerLevel 
+		run(), jump(), turn(), showLevelMessage();
+
+	AdvancedLevel
+		run(), jump(), turn(), showLevelMessage();
+		
+	SuperLevel
+		run(), jump(), turn(), showLevelMessage();
+		
+
+추상 클래스의 다형성
+
 
 3. final 예약어(변경 불가)
 클래스명 앞 final  -> 상속 불가
