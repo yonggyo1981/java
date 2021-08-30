@@ -25,11 +25,27 @@ implements -> 인터페이스 구현
 -> 인터페이스내에 정의되어 있는 값 -> static 상수
 
 
-
 2. 인터페이스와 다형성
+
+
 3. 인터페이스 요소
 	 1) 인터페이스 상수
 	 2) 디폴트 메서드
 	 3) 정적 메서드
 	 4) private 메서드
+	 
 4. 인터페이스 상속
+인터페이스 상속, 다중 상속이 가능
+extends 예약어 - 인터페이스간 상속
+
+
+Collection 인터페이스 
+	List  인터페이스  Set 인터페이스
+	- ArrayList 
+	- LinkedList
+	- Vector
+	
+	
+	ArrayList<Computer> list = new ArrayList();
+	List<Computer> list = new ArrayList();
+	
