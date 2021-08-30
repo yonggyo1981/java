@@ -122,8 +122,21 @@ PlayerLevel  - 추상 클래스
 추상 클래스의 다형성
 
 
-3. final 예약어(변경 불가)
+3. final 예약어(변경 불가) 
 클래스명 앞 final  -> 상속 불가
 메서드명 앞 final -> 메서드 재정의 불가
-변수명 앞 final -> 상수
+변수명 앞 final -> 상수 -> 데이터 영역
 
+공유하는 상수 값을 정의
+static 
+
+private final char[] value
+
+311 
+Q1. 추상 메서드, 추상 클래스
+Q2. final 
+Q3. abstract
+Q4. 템플릿
+
+P281 ~ 312 
+정독 -> 예제
