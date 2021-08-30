@@ -46,6 +46,6 @@ Collection 인터페이스
 	- Vector
 	
 	
-	ArrayList<Computer> list = new ArrayList();
-	List<Computer> list = new ArrayList();
+	ArrayList<Computer> list = new ArrayList<>();
+	List<Computer> list = new ArrayList<>();
 	
