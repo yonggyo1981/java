@@ -23,8 +23,10 @@
 	
 	Notebook
 		- monitor
-		- keyboard
 		- cpu
+		
+	Tablet extends Notebook 
+		- keyboard()
 	   
 	Computer에 정의되어 있는 추상 메서드
 		- 컴퓨터라면 구현되어야 하는 표준,기준 
@@ -48,6 +50,17 @@
 - 추상(공통)
 	+ 하위 클래스가 공통으로 사용해야 하는 메서드나 멤버변수 
 	
+- 다형성	
+
+
+288 - 나혼자 코딩
+Car - run(), refuel(), stop() 
+	
+	- Bus
+		- takePassenger()
+		
+	- AutoCar
+		- load()
 
 
 2. 템플릿 메서드
