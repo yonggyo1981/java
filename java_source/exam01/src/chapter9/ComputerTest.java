@@ -24,5 +24,7 @@ public class ComputerTest {
 			}
 			c.keyboard();
 		}
+		
+		//Device d = new Device();
 	}
 }
