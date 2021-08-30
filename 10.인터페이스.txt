@@ -49,3 +49,27 @@ Collection 인터페이스
 	ArrayList<Computer> list = new ArrayList<>();
 	List<Computer> list = new ArrayList<>();
 	
+P313
+Calc calc = new CompleteCalc();
+					showInfo() 
+					
+ComplateCalc calc2 = (CompleteCalc)calc;
+
+P322
+Scheduler interface
+	- getNextCall();  // 유입된 상담전화를 가져오는 메서드
+	- sendCallToAgent();  // 상담전화를 상담원에서 배분
+	
+RoundRobin(순서대로 배분)
+LeastJob(짧은 대기열에 따라 배분)
+ProrityAllocation(우선순위에 따라 배분)
+
+06 throws IOException
+12 System.in.read() - InputStream -> 바이트 단위의 콘솔 입력
+
+P326  - 나혼자 코딩
+AgentGetCall -> Scheduler 인터페이스
+	-> getNextCall() 
+	-> sendCallToAgent() 
+	
+SchedulerTest -> 'A' -> 호출 
