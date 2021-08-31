@@ -1,9 +1,0 @@
-package chapter5;
-
-public class Student {
-	// ¸â¹ö º¯¼ö
-	int studentID;
-	String studentName;
-	int grade;
-	String address;
-}

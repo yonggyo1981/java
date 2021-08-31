@@ -1,8 +1,0 @@
-package chapter5;
-
-public class MethodEx1 {
-	int sum(x) {
-		
-		return 0;
-	}
-}

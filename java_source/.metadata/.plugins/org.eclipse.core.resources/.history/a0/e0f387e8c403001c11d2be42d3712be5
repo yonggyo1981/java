@@ -1,7 +1,0 @@
-package chapter4;
-
-public class LoopEx11 {
-	public static void main(String[] args) {
-		
-	}
-}
