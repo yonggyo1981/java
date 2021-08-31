@@ -1,6 +1,0 @@
-package chapter6;
-
-public class Bus {
-	int num; // 버스노선번호
-	int passengerCount; // 승객의 수 
-}

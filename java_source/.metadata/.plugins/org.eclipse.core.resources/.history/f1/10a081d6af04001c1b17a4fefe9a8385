@@ -1,6 +1,0 @@
-package chapter6;
-
-public class Bus {
-	int num; // ³ë¼±¹øÈ£
-	int passengerCount; // ½Â°´ÀÇ ¼ö 
-}

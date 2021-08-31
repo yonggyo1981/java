@@ -1,7 +1,0 @@
-package chapter6;
-
-public class StaticEx1 {
-	public static void main(String[] args) {
-		
-	}
-}
