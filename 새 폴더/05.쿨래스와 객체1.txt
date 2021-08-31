@@ -177,7 +177,10 @@
 	접근제어자
 	public - 외부 클래스 + import를 통한 외부 패키지
 	protected  - 동일 패키지(내부 + 외부) - 외부패키지 -> 상속 -> 접근(private)
+					(default + a(상속))
 	default - 동일 패키지(내부 + 외부)
 	private  - 내부 클래스에서만 접근 
 	
 	+ set/get -> setter, getter
+	
+	P166

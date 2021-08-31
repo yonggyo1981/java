@@ -56,7 +56,7 @@ public class MyDate {
 		if (day < 1) day = 1;
 		else if (day > 31) day = 31;
 		
-		if (this.month == 2 || day > 28) day = 28;
+		if (this.month == 2 && day > 28) day = 28;
 		
 		this.day = day;
 	}
