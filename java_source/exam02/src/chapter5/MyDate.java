@@ -9,6 +9,10 @@ public class MyDate {
 	private int min;
 	private int sec;
 	
+	public MyDate() {
+		System.out.println("this : " + this);
+	}
+	
 	public int getHour() {
 		return hour;
 	}

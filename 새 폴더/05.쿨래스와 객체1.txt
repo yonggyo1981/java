@@ -183,4 +183,5 @@
 	
 	+ set/get -> setter, getter
 	
-	P166
+Q2 인스턴스, 인스턴스변수
+Q3. 메서드 
