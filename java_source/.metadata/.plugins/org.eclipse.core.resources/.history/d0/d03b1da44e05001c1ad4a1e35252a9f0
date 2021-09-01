@@ -1,8 +1,0 @@
-package chapter6_1;
-
-public class Student2Test {
-	public static void main(String[] args) {
-		Student st1 = new Student();
-		Student st2 = new Student();
-	}
-}

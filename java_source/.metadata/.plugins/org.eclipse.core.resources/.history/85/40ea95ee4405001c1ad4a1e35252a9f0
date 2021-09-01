@@ -1,8 +1,0 @@
-package chapter6_1;
-
-public class StudentTest {
-	public static void main(String[] args) {
-		// 학생 -> 생성 -> 학번이 자동 증감(serialNum - static)
-		
-	}
-}

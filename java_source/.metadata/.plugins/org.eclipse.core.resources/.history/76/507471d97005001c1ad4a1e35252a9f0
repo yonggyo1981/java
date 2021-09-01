@@ -1,9 +1,0 @@
-package chapter7;
-
-public class ArrayEx3 {
-	public static void main(String[] args) {
-		char[] alpha = new char[26]; // 2바이트씩 총 52개의 연속 공간 -> 인덱스 번호로 접근 
-		
-		
-	}
-}

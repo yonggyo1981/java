@@ -1,8 +1,0 @@
-package chapter7;
-
-public class StudentTest {
-	public static void main(String[] args) {
-		// 자료형[] 변수명 = new 자료형[갯수];  // 참조 자료형 - Student 
-		Student[] list = new Student[3];
-	}
-}

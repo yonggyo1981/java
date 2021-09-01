@@ -1,8 +1,0 @@
-package chapter6_1;
-
-public class SingleTonTest {
-	public static void main(String[] args) {
-		SingleTon st1 = new SingleTon();
-		SingleTon st2 = new SingleTon();
-	}
-}
