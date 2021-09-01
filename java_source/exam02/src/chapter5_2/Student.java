@@ -8,6 +8,7 @@ public class Student {
 		staticMethod();
 		serialNum = 10;
 		System.out.println("인스턴스 메서드");
+	}
 	
 	static void staticMethod() {
 		//method();
