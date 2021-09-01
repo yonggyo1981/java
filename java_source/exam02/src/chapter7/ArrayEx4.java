@@ -21,5 +21,7 @@ public class ArrayEx4 {
 			System.out.println(nums[i]);
 		}
 		
+		
+		System.out.println('A' + 1);
 	}
 }
