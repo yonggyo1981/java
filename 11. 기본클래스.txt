@@ -24,8 +24,17 @@ P351
 
 		System.out.println("s1과 s2의 equals(논리적 일치) ? : " + (s1.equals(s2)));
 		
-	
+	4) Object clone()	
 		
+		참고) throws - 예외 전가
+		
+		try {
+		s2.clone()
+		
+		} catch (CloneNotSupportedException e) {
+		
+		}
+	5) Class getClass -> 클래스의 정보
 2. String 클래스
 3. Wrapper 클래스
 4. Class 클래스 

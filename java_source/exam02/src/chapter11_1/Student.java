@@ -2,10 +2,10 @@ package chapter11_1;
 
 /** 빈 인터페이스 -> Cloneable -> 의사 표현 -> 마커 인터페이스 */
 public class Student implements Cloneable {
-	int studentID; // 학번
-	String name; // 이름 
+	public int studentID; // 학번
+	public String name; // 이름 
 	
-	Student(int studentID, String name) {
+	public Student(int studentID, String name) {
 		this.studentID = studentID;
 		this.name = name;
 	}
