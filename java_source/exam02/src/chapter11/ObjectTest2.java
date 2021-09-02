@@ -20,10 +20,19 @@ public class ObjectTest2 {
 		//System.out.println("林家 == : " + (text1 == text2));
 		
 		
-		Integer num1 = new Integer(100);
-		Integer num2 = new Integer(100);
+		//Integer num1 = new Integer(100);
+		//Integer num2 = new Integer(100);
+		Integer num1 = Integer.valueOf(100);
+		Integer num2 = Integer.valueOf(100);
+		int num11 = num1.intValue();
+		Integer num111 = Integer.valueOf(num11);
+		int num12 = Integer.parseInt("100");
+		
 		System.out.println("num1 hashCode : " + num1.hashCode());
 		System.out.println("num1 System.identityHashCode : " + System.identityHashCode(num1));
+		
+		System.out.println("num2 hashCode : " + num2.hashCode());
+		System.out.println("num2 System.identityHashCode : " + System.identityHashCode(num2));
 		
 		//System.out.println("equals : " + num1.equals(num2));
 		//System.out.println("林家 == : " + (num1 == num2));
