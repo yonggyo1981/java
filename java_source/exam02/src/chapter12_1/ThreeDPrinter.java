@@ -1,13 +1,13 @@
 package chapter12_1;
 
 public class ThreeDPrinter {
-	private Plastic material;
+	private Object material;
 	
-	public void setMaterial(Plastic material) {
+	public void setMaterial(Object material) {
 		this.material = material;
 	}
 	
-	public Plastic getMaterial() {
+	public Object getMaterial() {
 		return material;
 	}
 	
