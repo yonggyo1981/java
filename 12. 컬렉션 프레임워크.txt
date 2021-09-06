@@ -123,7 +123,13 @@ Map 인터페이스
 	HashSet
 		-> get(int index) - X -> 순차 자료 구조에만 있는 메서드
 		-> 인덱스번호로 순회 조회 불가 (순서가 없으므로)
+		
+		-> 중복 여부를 체크 
+			- equals -> true
+			- hashCode -> 동일 여부
+			
+			-> 인스턴스의 중복 여부는 equals, hashCode 재정의 하여 논리적 동일성을 구현
 	TreeSet 
-	
+		- 집합 자료형 + 정렬
 	
 5. Map 인터페이스
