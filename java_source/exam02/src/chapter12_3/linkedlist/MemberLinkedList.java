@@ -34,6 +34,8 @@ public class MemberLinkedList {
 	
 	/** 회원 출력 */
 	public void showMembers() {
-		
+		for (Member member : memberList) {
+			System.out.println(member);
+		}
 	}
 }
