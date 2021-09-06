@@ -20,6 +20,11 @@ public class MemberLinkedList {
 		}
 	}
 	
+	/** 회원의 목록 첫번째에 추가 */
+	public void insertFirst(Member member) {
+		memberList.addFirst(member);
+	}
+	
 	/** 회원 제거 */
 	public boolean removeMember(int memberId) {
 		for (int i = 0; i < memberList.size(); i++) {

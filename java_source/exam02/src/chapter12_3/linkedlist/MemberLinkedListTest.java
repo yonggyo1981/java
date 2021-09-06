@@ -16,6 +16,9 @@ public class MemberLinkedListTest {
 		list.removeMember(1002);
 		
 		list.showMembers();
+		System.out.println();
 		
+		list.insertFirst(new Member(1004, "ÀÌ¸§4"));
+		list.showMembers();
 	}
 }
