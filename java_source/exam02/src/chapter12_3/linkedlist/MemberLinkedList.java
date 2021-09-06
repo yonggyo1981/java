@@ -25,6 +25,7 @@ public class MemberLinkedList {
 		for (int i = 0; i < memberList.size(); i++) {
 			Member member = memberList.get(i);
 			if (member.getMemberId() == memberId) {
+				memberList.remove(i);
 				return true;
 			}
 		}
