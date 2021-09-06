@@ -1,6 +1,9 @@
 package chapter12_3;
 
-public class Member {
+import java.util.Comparator;
+
+public class Member implements /* Comparable<Member> */ Comparator<Member> {
+	
 	private int memberId; // 회원아이디
 	private String memberName; // 회원이름
 	
@@ -46,4 +49,22 @@ public class Member {
 		}
 		
 	}
+
+	@Override
+	public int compare(Member o1, Member o2) {
+		// TODO Auto-generated method stub
+		return o1.getMemberId() - o2.getMemberId();
+	}
+	
+	/*
+	@Override
+	public int compareTo(Member o) {
+	
+		//return memberId - o.getMemberId(); // 오름차순(회원아이디)
+		//return (memberId - o.getMemberId()) * -1; // 내림차순(회원아이디)
+		
+		//return memberName.compareTo(o.getMemberName()); // 회원명으로 오름차순
+		return memberName.compareTo(o.getMemberName()) * -1; // 회원명으로 내림차순
+	}
+	*/
 }

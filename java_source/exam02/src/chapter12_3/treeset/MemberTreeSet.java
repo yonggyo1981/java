@@ -11,7 +11,7 @@ public class MemberTreeSet {
 	private TreeSet<Member> memberList;
 	
 	public MemberTreeSet() {
-		memberList = new TreeSet<Member>();
+		memberList = new TreeSet<Member>(new Member());
 	}
 	
 	/** Ãß°¡ */
