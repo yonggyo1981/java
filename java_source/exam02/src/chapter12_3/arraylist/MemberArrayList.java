@@ -21,8 +21,11 @@ public class MemberArrayList {
 		}
 	}
 	
+	/** 특정 위치에서 회원 추가 */
 	public void insertMember(int index, Member member) {
-		
+		if (member != null && index >= 0 && index <= memberList.size()) {
+			memberList.add(index, member);
+		}
 	}
 	
 	/** 회원 삭제 */

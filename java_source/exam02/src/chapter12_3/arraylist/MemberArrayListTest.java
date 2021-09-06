@@ -17,6 +17,8 @@ public class MemberArrayListTest {
 		System.out.println("----------------------------------------------");
 		
 		list.removeMember(1002);
+		
+		list.insertMember(3, new Member(1004, "ÀÌ¸§4"));
 		list.showMembers();
 	}
 }
