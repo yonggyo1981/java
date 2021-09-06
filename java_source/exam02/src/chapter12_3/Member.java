@@ -1,8 +1,8 @@
 package chapter12_3;
 
 public class Member {
-	private int memberId;
-	private String memberName;
+	private int memberId; // 회원아이디
+	private String memberName; // 회원이름
 	
 	public Member(int memberId, String memberName) {
 		this.memberId = memberId;
@@ -27,6 +27,6 @@ public class Member {
 	
 	@Override
 	public String toString() {
-		return "회원 아이디 : " + memberId + ", 회원 이름 : " + memberName;
+		return "아이디 : " + memberId + ", 회원 이름 : " + memberName;
 	}
 }
