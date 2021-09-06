@@ -173,6 +173,7 @@ Collection 인터페이스
 	Set 인터페이스(집합 자료 구조)
 		- 순서 유지 X 
 		- 중복 X 
+		- 중복 여부 체크  -> equals, hashCode -> 논리적 동일 -> 인스턴스 중복 
 		
 		HashSet 
 		TreeSet (HashSet + 정렬  
@@ -194,4 +195,7 @@ Map 인터페이스
 		
 	HashMap
 	TreeMap(HashMap + 정렬)
+	 
+	 
+	 427 - 10, 15
 	 
