@@ -7,6 +7,8 @@ public class Member implements /* Comparable<Member> */ Comparator<Member> {
 	private int memberId; // 회원아이디
 	private String memberName; // 회원이름
 	
+	public Member() {}
+	
 	public Member(int memberId, String memberName) {
 		this.memberId = memberId;
 		this.memberName = memberName;
