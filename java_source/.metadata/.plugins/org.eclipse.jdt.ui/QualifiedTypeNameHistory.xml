@@ -4,4 +4,6 @@
     <fullyQualifiedTypeName name="chapter4.SwitchEx1"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="test.ex1"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
 </qualifiedTypeNameHistroy>

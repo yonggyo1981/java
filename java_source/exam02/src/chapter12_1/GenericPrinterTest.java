@@ -8,18 +8,21 @@ public class GenericPrinterTest {
 		Powder powder = new Powder();
 		Water water = new Water();
 		
-		GenericPrinter<Plastic> plasticPrinter = new GenericPrinter();
+		GenericPrinter<Plastic> plasticPrinter = new GenericPrinter<>();
 		plasticPrinter.setMaterial(plastic);
-		System.out.println(plasticPrinter);
-		Plastic plastic2 = plasticPrinter.getMaterial();
+		plasticPrinter.printing();
+		//System.out.println(plasticPrinter);
+		//Plastic plastic2 = plasticPrinter.getMaterial();
 		
 		
 		GenericPrinter<Powder> powderPrinter = new GenericPrinter<Powder>();
 		powderPrinter.setMaterial(powder);
-		Powder powder2 = powderPrinter.getMaterial();
-		powder2.showInfo();
-		
+		powderPrinter.printing();
+		//Powder powder2 = powderPrinter.getMaterial();
+		//powder2.showInfo();
+		/*
 		GenericPrinter<Water> waterPrinter = new GenericPrinter<>();
 		waterPrinter.setMaterial(water);
+		*/
 	}
 }
