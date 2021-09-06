@@ -21,6 +21,10 @@ public class MemberArrayList {
 		}
 	}
 	
+	public void insertMember(int index, Member member) {
+		
+	}
+	
 	/** 회원 삭제 */
 	public boolean removeMember(int memberId) {
 		// get -> ArrayList -> 요소를 조회
@@ -37,7 +41,7 @@ public class MemberArrayList {
 	
 	/** 회원목록 출력 */
 	public void showMembers() {
-		for(Member member : memberList) {
+		for (Member member : memberList) {
 			System.out.println(member);
 		}
 	}
