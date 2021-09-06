@@ -2,7 +2,7 @@ package chapter12_3;
 
 import java.util.Comparator;
 
-public class Member implements /* Comparable<Member> */ Comparator<Member> {
+public class Member /* implements /* Comparable<Member> */ /* Comparator<Member> */ {
 	
 	private int memberId; // 회원아이디
 	private String memberName; // 회원이름
@@ -52,12 +52,13 @@ public class Member implements /* Comparable<Member> */ Comparator<Member> {
 		
 	}
 
-	@Override
+	/*
+	 * @Override
 	public int compare(Member o1, Member o2) {
 		// TODO Auto-generated method stub
 		return o1.getMemberId() - o2.getMemberId();
 	}
-	
+	*/
 	/*
 	@Override
 	public int compareTo(Member o) {
