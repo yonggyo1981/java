@@ -2,6 +2,7 @@ package chapter12_3.arraylist;
 
 import java.util.ArrayList;
 import chapter12_3.Member;
+import java.util.Iterator;
 
 /**
  * arrayList - 추가, 삭제, 출력 
@@ -31,6 +32,15 @@ public class MemberArrayList {
 	/** 회원 삭제 */
 	public boolean removeMember(int memberId) {
 		// get -> ArrayList -> 요소를 조회
+		Iterator<Member> ir = memberList.iterator();
+		while(ir.hasNext()) { // 다음 요소가 있으면 true
+			Member member = ir.next();
+			if (member.getMemberId() == memberId) {
+				memberList.remove(member);
+				return true;
+			}
+		}
+		/*
 		for(int i = 0; i < memberList.size(); i++) {
 			Member member = memberList.get(i);
 			if (member.getMemberId() == memberId) {
@@ -38,7 +48,7 @@ public class MemberArrayList {
 				return true;
 			}
 		}
-		
+		*/
 		return false;
 	}
 	
