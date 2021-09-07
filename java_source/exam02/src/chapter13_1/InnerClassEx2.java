@@ -21,7 +21,7 @@ public class InnerClassEx2 {
 		InnerClassEx2 inClass = new InnerClassEx2();
 		inClass.ex1.method();
 		inClass.outMethod();
-		
+		int num = 10;
 		Ex2AbstractClass ex3 = new Ex2AbstractClass() {
 			public void method() {
 				System.out.println("method3");
