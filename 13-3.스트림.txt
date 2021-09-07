@@ -20,15 +20,19 @@
 				.map()
 				.mapToInt()
 				.filter()
-			
+				.sorted() -> 정렬  -> 기준 Comparable, Comparator 
+				
 			최종 연산 - 스트림을 소비 -> 최종 결과물 
 						  - 스트림은 일회용(한번 소비하면 끝)
 				.forEach()
 				.count()
 				.sum()
+				.reduce() 
 				
-			
-			
-			
-			
-			
+		
+		Collection 인터페이스 
+			.stream() -> Stream으로 만들어주는 메서드
+			- List 
+				ArrayList, LinkedList, Vector, Queue, Stack 
+			- Set 
+				HashSet, TreeSet
