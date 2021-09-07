@@ -197,5 +197,61 @@ Map 인터페이스
 	TreeMap(HashMap + 정렬)
 	 
 	 
-	 427 - 10, 15
+	 java.lang.Comparable - int compareTo
+	 java.util.Comparator - int compare
+	 438 - 16 
 	 
+1. Collection 인터페이스
+	Iterator - 반복자(hasNext(), next())
+	1) List 인터페이스(순차 자료구조 - 배열)
+		- ArrayList  (물리적 순서 == 논리적 순서 -> Object[])
+		- LinkedList  (물리적 순서 X -> 논리적 순서 O - 요소 -> 다음 요소를 접근하는 주소)
+		
+		- Vector 
+		- Queue
+		- Stack 
+	2) Set 인터페이스(집합 자료 구조)
+		- 순서 X
+		- 중복 X 
+		- HashSet 
+		- TreeSet(HashSet + 정렬 - Comparable interface, Comparator interface)
+		
+2. Map 인터페이스
+	key - value 쌍 
+	Iterator 정의 X -> 반복 할 수 없음 
+	key -> 중복 불가
+	value -> 중복 가능
+	
+	
+	- HashMap
+	- TreeMap(HashMap + 정렬(키) - 정렬의 기준 -> Comparable, Comparator)
+	
+	440  - 28 - showAllMember
+	
+	Iterator<Integer> ir = hashMap.keySet().iterator();
+	while(ir.hasNext()) {
+		int key = ir.next();
+		
+		Member member = hasMap.get(key);
+	}
+	
+	446
+	Q1. 컬렉션 프레임워크
+	JDK - Java Development Kit
+	Q2. 제네릭 프로그래밍
+		->클래스명<T>
+				-> 인스턴스가 생성될때 결정 -> static 사용 불가
+				-> Object -> T로 입력된 자료형으로 다운 캐스팅
+				-> T extends 제한할 참조자료형
+				
+		메서드 내에서 
+		public static <T, V> double .... 
+			-> 호출 되는 시점에서 결정
+		
+	Q3. Iterator 
+	 
+	Q4. java.util.Comparator -> int compare + 
+	
+	Q5. equals, hashCode
+	
+	338~447 -> 정독 -> 예제 
