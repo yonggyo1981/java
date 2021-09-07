@@ -3,12 +3,7 @@ package chapter13_1;
 public class OuterClass {
 	public int num = 10;
 	private static int snum = 20;
-	private InnerClass in;
-	
-	public OuterClass() {
-		in = new InnerClass();
-	}
-	
+
 	class InnerClass {
 		int inNum = 10;
 		static int inSNum = 20; // 오류- jdk 15 이하, jdk16 이상 - 오류 X
@@ -16,7 +11,6 @@ public class OuterClass {
 		void innerMethod() {
 			System.out.println("OuterClass num : " + num);
 			System.out.println("OuterClass snum : " + snum);
-
 			System.out.println("InnerClass inNum : " + inNum);
 			System.out.println("InnerClass inSnum : " + inSNum);
 		}
@@ -25,6 +19,4 @@ public class OuterClass {
 			System.out.println("static 메서드");
 		}
 	}
-	
-	
 }
