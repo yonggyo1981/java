@@ -54,4 +54,12 @@
 		Q4. 함수형 인터페이스
 			@FunctionalInterface
 		
+		Q5.
+		
+		Q6. 스트림
+		485
+		Q7.
+		Collection 인터페이스 
+			- stream()
+			
 		
