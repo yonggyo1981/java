@@ -46,10 +46,16 @@ P512
 2. 표준입출력
 	콘솔에서 입력, 출력 
 	System 클래스
-		static PrintStream out 
-		static InputStream in
-		static PrintStream err
-
+		static PrintStream out - 콘솔에서 출력 
+		static InputStream in  - 콘솔에서 입력 
+		static PrintStream err - 콘솔에서 에러를 출력 
+		
+		BufferedReader br  = new BufferedReader(new InputStreamReader(System.in));
+		
+		-> 문자 단위로 쉽게 입력 받을 수 있는  클래스
+		Scanner 클래스
+		
+		
 
 3. 바이트 단위 스트림
 
