@@ -14,7 +14,7 @@ public class Ex2 {
 			return; // return으로 함수 종료해도 finally는 실행된다. - 함수 종료 시켜도 finally는 무조건 실행 
  		} finally {
 			try {
-				fis.close();
+				fis.close(); 
 			} catch (IOException e) {
 				e.printStackTrace();
 			} catch (NullPointerException e) {

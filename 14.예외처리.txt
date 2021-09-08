@@ -31,5 +31,18 @@ try {
 IO 스트림 -> 열면 끝나면 무조건 닫아 줘야 한다 
 	-> finally에 정의
 	
-try - with - resource; 
+try - with - resources; 
 -> finally에 구현되어 있는 close 부분을 자동으로 알아서 실행
+
+try ( 닫아 줘야 하는 인스턴스 ) {
+
+} catch ( ... ) {
+
+}
+
+
+throws - 예외 전가
+	- 메서드 throws를 정의 하면 -> 메서드를 호출하는 쪽에서 적절한 예외 처리를 할 수 있도록 미루는 것 
+
+
+사용자 정의 예외
