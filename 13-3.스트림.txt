@@ -36,3 +36,22 @@
 				ArrayList, LinkedList, Vector, Queue, Stack 
 			- Set 
 				HashSet, TreeSet
+
+
+		480 - 16~20
+				22 
+				
+		483- 17
+		
+		P484
+		Q1. final (상수화) 
+		
+		지역 내부 클래스 -> 메서드 안에 정의되어 있는 클래스
+		-> 호출 -> 스택 
+		
+		Q2. 익명 내부 클래스
+		Q3. 람다식 
+		Q4. 함수형 인터페이스
+			@FunctionalInterface
+		
+		
