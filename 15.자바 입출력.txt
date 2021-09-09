@@ -112,4 +112,6 @@ P512
 	ObjectOutputStream
 	
 	
+	Externalizable 인터페이스
+	
 7. 기타 
