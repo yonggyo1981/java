@@ -111,7 +111,11 @@ P512
 	
 	ObjectOutputStream
 	
+	Serializble -> 인스턴스 전체를 저장
+	
 	
 	Externalizable 인터페이스
 	
 7. 기타 
+	1) File 클래스
+	
