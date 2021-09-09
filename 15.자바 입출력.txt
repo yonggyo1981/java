@@ -92,6 +92,7 @@ P512
 	FilterInputStream, FilterOutputStream
 		
 	BufferedInputStream, BufferedOutputStream -  바이트 단위 스트림에 버퍼를 제공 
+	(8,192 -> 8kb)
 	
 	InputStreamReader, OutputStreamReader  - 바이트 단위 스트림 -> 문자 단위 스트림 
 	
@@ -106,5 +107,9 @@ P512
 
 
 6. 직렬화
-
+	ObjectInputStream
+	
+	ObjectOutputStream
+	
+	
 7. 기타 
