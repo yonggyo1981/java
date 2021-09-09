@@ -83,8 +83,27 @@ P512
 		- FileReader
 	
 	Writer 
+		- FileWriter 
 	
 5. 보조스트림
+	기반 스트림 - 직접 읽고, 쓰는 기능 
+	보조 스트림 - 직접 읽고, 쓰는 기능 X -> 기반스트림을 보조 해주는 역할
+	
+	FilterInputStream, FilterOutputStream
+		
+	BufferedInputStream, BufferedOutputStream -  바이트 단위 스트림에 버퍼를 제공 
+	
+	InputStreamReader, OutputStreamReader  - 바이트 단위 스트림 -> 문자 단위 스트림 
+	
+	BufferedReader, BufferedWriter -> 문자 단위 스트림에 버퍼를 제공 
+	
+	DataInputStream, DataOuputStream -> 자료형 그 자체로 데이터를 저장, 읽을수 있게 해주는 보조 스트림
+	
+	ObjectInputStream, ObjectOutStream  -> 인스턴스를 상태 그대로 저장, 읽을때
+	
+	
+	//BufferedInputStream bis = new BufferedInputStream(new DataInputStream(System.in))
+
 
 6. 직렬화
 
