@@ -21,7 +21,18 @@ public class StudentTest {
 			
 			oos.writeObject(list1);
 			
+			StudentList list2 = (StudentList)ois.readObject();
+			list2.addStudent(new Student(1004, "이름4", 25));
+			list2.addStudent(new Student(1005, "이름5", 50));
+			
+			oos.writeObject(list2);
+			
+			StudentList list3 = (StudentList)ois.readObject();
+			list3.showList();
+			
 		} catch (IOException e) {
+			e.printStackTrace();
+		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		}
 		

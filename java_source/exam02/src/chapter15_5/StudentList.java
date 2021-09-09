@@ -5,7 +5,12 @@ import java.io.Serializable;
 
 public class StudentList implements Serializable {
 	
+	private static final long serialVersionUID = -94907836795831647L;
+
 	private ArrayList<Student> list;
+	
+	private String name3;
+	private int num;
 	
 	public StudentList() {
 		list = new ArrayList<Student>();
