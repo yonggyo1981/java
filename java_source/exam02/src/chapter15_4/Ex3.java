@@ -20,6 +20,8 @@ public class Ex3 {
 			bos.write(i);
 		}
 		
+		bos.flush();
+		
 		millis = System.currentTimeMillis() - millis;
 		System.out.println("소요 시간 : " + millis + "ms");
 		
