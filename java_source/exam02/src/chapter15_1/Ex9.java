@@ -30,15 +30,16 @@ public class Ex9 {
 		Scanner scanner = new Scanner(System.in);
 		
 		System.out.print("날짜 : ");
-		int date = scanner.nextInt();
-		System.out.println();
+		int date = Integer.parseInt(scanner.nextLine());
+			
 		System.out.print("품목명 : ");
-		String item = scanner.next();
-		System.out.println();
+		String item = scanner.nextLine(); // next() -> 단어별로, nextLine() -> 문장 전체
+
 		System.out.print("지출(0), 수입(1) : ");
-		int type = scanner.nextInt();
+		int type = Integer.parseInt(scanner.nextLine());
+		
 		System.out.print("금액 : ");
-		int price = scanner.nextInt();
+		int price = Integer.parseInt(scanner.nextLine());
 		
 		list.add(new History(date, item, type, price));
 		

@@ -54,13 +54,36 @@ P512
 		
 		-> 문자 단위로 쉽게 입력 받을 수 있는  클래스
 		Scanner 클래스
+			1) 문자단위로 입력을 받을 수 있고 
+			2) 입력 받는 데이터의 자료형을 다양하게 할 수 있다.
 		
-		
+		Console 클래스
+			System.console();
+			String readLine();
+			char[] readPassword();
 
 3. 바이트 단위 스트림
-
+	InputStream
+		- FileInputStream 
+		- ByteArrayInputStream 
+		- FilterInputStream  - 보조 스트림의 상위 클래스
+		
+		offset -> 시작점
+		length -> 길이
+		
+	OutStream 
+		- FileOutputStream 
+		- ByteArrayOutputStream
+		- FilterOutputStream - 보조 스트림의 상위클래스
+		
+	바이트 스트림 -> 문자 처리(2바이트 문자) -> 깨짐 
+	
 4. 문자단위 스트림
-
+	Reader 
+		- FileReader
+	
+	Writer 
+	
 5. 보조스트림
 
 6. 직렬화
