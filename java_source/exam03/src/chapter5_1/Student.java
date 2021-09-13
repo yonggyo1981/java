@@ -1,8 +1,10 @@
 package chapter5_1;
 
 public class Student {
-	int studentID; // 학번 
-	String name; // 학생이름
+	int studentID; // 학번  // 기본 자료형 
+	String name; // 학생이름 // 참조자료형 JDK 정의 기본 클래스
+	Subject kor;
+	
 	
 	public Student() {
 		studentID = 1001;
@@ -12,6 +14,7 @@ public class Student {
 	public Student(int sID, String nm) {
 		studentID = sID;
 		name = nm;
+		kor = new Subject("국어", 60);
 	}
 	
 	public void showInfo() {
