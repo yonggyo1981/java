@@ -133,4 +133,5 @@
 7. 정보 은닉
 	setter / getter 
 	
+	P167
 	
