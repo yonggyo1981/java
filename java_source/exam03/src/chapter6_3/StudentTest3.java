@@ -13,6 +13,9 @@ public class StudentTest3 {
 		
 		System.out.println(st1.NUM);
 		System.out.println(st2.NUM);
+		
+		// 인스턴스를 생성 하든 안하든 NUM는 무조건 100
+		
 	}
 	
 }

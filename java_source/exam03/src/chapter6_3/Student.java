@@ -15,7 +15,7 @@ public class Student {
 		return studentID;
 	}
 	
-	public int getSerialNum() {
+	public static int getSerialNum() {
 		// 멤버 변수, 인스턴스 메서드 -> 사용 할 수 있는가?
 		//studentID = 100;
 		return serialNum;
