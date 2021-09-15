@@ -11,9 +11,10 @@ public class B extends A {
 	void methodB() {
 		System.out.println("메서드B");
 	}
-	/*
-	void method() {
+
+
+	protected void method() {
 		System.out.println("B클래스 메서드");
 	}
-	*/
+
 }

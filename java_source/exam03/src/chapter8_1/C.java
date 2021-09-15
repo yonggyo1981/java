@@ -11,8 +11,9 @@ public class C extends B {
 	void methodC() {
 		System.out.println("메서드C");
 	}
-
-	void method() {
+	
+	@Override
+	public void method() {
 		System.out.println("C 클래스의 메서드");
 	}
 	
