@@ -5,6 +5,12 @@ class 자식 클래스명 extends 부모 클래스명 {
 
 }
 
+VIPCustomer extend Customer 
+
+Customer() 
+VIPCustomer();
+
+
 생성자 
 	1) 인스턴스 생성(주 기능)
 	2) 멤버 변수의 초기화(부가)
@@ -23,6 +29,11 @@ super 예약어
 1) 부모 클래스 인스턴스의 주소
 2) 부모 클래스의 생성자로 동작 
 
+Customer -> 기본생성자(삭제) -> 매개변수가 있는 생성자
+VIPCustomer -> 매개변수가 있는 생성자
+					  (super() -> 매개변수가 있더라도 기본적으로 컴파일러는 상위클래스의 기본 생성자라를 호출)
+					  1. 상위 클래스에 기본 클래스 정의 
+					  2. 하위클래스 생성자에서 적절한 상위클래스 생성자 호출
 
 일반적 --> 구체적인 클래스
 (상위)    -> (하위)
@@ -46,9 +57,25 @@ super 예약어
 
 동일한 자료형(!!!)
 
+인스턴스 instanceof 클래스 자료형
+
+248 
+Customer vc = new VIPCustomer(); // VIPCustomer 인스턴스 + Customer 인스턴스
+
+260
+public void moveAnimal(Animal animal) {
+	animal.move(); // animal 인스턴스를 생성한 클래스에 정의되어 있는 move()
+}
+
 2. 상속에서 클래스 생성과 형변환
 3. 메서드 오버라이딩
 4. 다형성 
 5. 다형성 활용하기
-6. 다운 캐스팅과 instanceof
+6. 다운 캐스팅과 instanceof - 273
 
+인스턴스 instanceof 클래스 자료형 
+274
+Animal hAnimal = new Human();
+if (hAnimal instanceof Human) {
+	Human human = (Human)hAnimal;
+}
