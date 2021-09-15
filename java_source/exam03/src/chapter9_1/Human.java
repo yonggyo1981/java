@@ -4,7 +4,7 @@ public class Human extends Mammal {
 
 	@Override
 	void breads() { // Mammal
-		// TODO Auto-generated method stub
+		System.out.println("Human Breads");
 		
 	}
 
@@ -12,5 +12,4 @@ public class Human extends Mammal {
 	void move() { // Animal 
 		System.out.println("사람이 두발로 걷습니다.");
 	}
-
 }
