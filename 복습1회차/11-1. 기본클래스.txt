@@ -1,0 +1,7 @@
+Object 클래스
+1) java.lang 패키지
+2) 모든 클래스의 최상위 클래스
+3) toString()
+4) equals()
+5) hashCode()
+6) clone()
