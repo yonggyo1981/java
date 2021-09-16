@@ -11,7 +11,5 @@ public class Order implements Buy, Sell {
 
 	@Override
 	public void order() {
-		// TODO Auto-generated method stub
-		Buy.super.order();
 	}
 }
