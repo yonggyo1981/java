@@ -24,3 +24,6 @@ char -> Character
 
 언박싱
 Wrapper -> 기본 자료형 
+
+
+정수, 실수 --> Number 
