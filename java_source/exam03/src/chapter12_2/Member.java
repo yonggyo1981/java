@@ -27,6 +27,21 @@ public class Member {
 
 	@Override
 	public String toString() {
-		return "아이디 : " + memberId + ", 회원명 : " + memberName;
+		return "아이디 : " + memberId + ", 회원명 : " + memberName + ", hashcode=" + hashCode();
+	}
+	
+	@Override
+	public boolean equals(Object obj) {
+		Member member = (Member)obj;
+		if (member.getMemberId() == memberId) {
+			return true;
+		}
+		
+		return false;
+	}
+	
+	@Override
+	public int hashCode() {
+		return memberId;
 	}
 }

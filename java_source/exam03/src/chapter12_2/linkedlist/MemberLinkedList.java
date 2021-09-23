@@ -16,6 +16,11 @@ public class MemberLinkedList {
 		members.add(member);
 	}
 	
+	/** 마지막 회원 제거 */
+	public void popMember() {
+		members.pop();
+	}
+	
 	/** 회원 제거 */
 	public boolean removeMember(int memberId) {
 		Iterator<Member> ir = members.iterator();
