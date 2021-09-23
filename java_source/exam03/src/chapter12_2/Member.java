@@ -49,6 +49,8 @@ public class Member implements Comparable<Member> {
 	public int compareTo(Member o) {
 		//this  Member o  -> 양수 -> 오름차순, 음수 -> 내림차순 
 		
-		return (this.memberId - o.getMemberId()) * -1;
+		//return (this.memberId - o.getMemberId()) * -1;
+		
+		return this.memberName.compareTo(o.getMemberName()) * -1;
 	}
 }

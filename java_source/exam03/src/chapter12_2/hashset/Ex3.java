@@ -5,6 +5,8 @@ import chapter12_2.Member;
 
 public class Ex3 {
 	public static void main(String[] args) {
+		
+		/** 회원 이름으로 내림차순 정렬 */
 		TreeSet<Member> list = new TreeSet<>();
 		list.add(new Member(1002, "이름3"));
 		list.add(new Member(1000, "이름4"));

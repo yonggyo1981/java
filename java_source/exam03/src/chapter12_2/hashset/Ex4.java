@@ -1,0 +1,22 @@
+package chapter12_2.hashset;
+
+import java.util.TreeSet;
+
+public class Ex4 {
+	public static void main(String[] args) {
+		/** 내림차순으로 정렬 하시오.. */
+		
+		TreeSet<Integer> list = new TreeSet<>();
+		/**
+		 * Integer -> 정렬의 기준 정의 되어 있다(오름차순)
+		 */
+		list.add(Integer.valueOf(200));
+		list.add(Integer.valueOf(100));
+		list.add(Integer.valueOf(300));
+		list.add(Integer.valueOf(400));
+		
+		for(Integer num : list) {
+			System.out.println(num);
+		}
+	}
+}
