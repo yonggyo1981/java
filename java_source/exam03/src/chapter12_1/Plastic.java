@@ -1,12 +1,13 @@
 package chapter12_1;
 
 public class Plastic {
-	void doPrinting() {
-		System.out.println("«√∂ÛΩ∫∆Ω¿∏∑Œ «¡∏∞∆√!");
+	
+	public void doPrinting() {
+		System.out.println("«√∂ÛΩ∫∆Ω¿∏∑Œ ¿Œº‚...");
 	}
 	
-	@Override
+	@Override 
 	public String toString() {
-		return "«√∂ÛΩ∫∆Ω!";
+		return "«√∂ÛΩ∫∆Ω";
 	}
 }
