@@ -1,11 +1,11 @@
 package chapter12_1;
 
-public class GenericOperator<T> {
+public class GenericOperator<T> { // <T> -> 인스턴스가 생성될때(힙에 올라갈때)
 	T num1;
 	T num2;
 	
 	
-	public<T, V> double add(T num1, V num2) {
+	public<T, V> double add(T num1, V num2) { // 호출될때 마다 자료형 투입 -> 스택에서 실행될때 결정
 		/**
 		 * T, V -> 숫자는 맞다. 정수인지, 실수 인지 알수 없다.
 		 *        -> 숫자(Integer, Double, Float, Long .... )

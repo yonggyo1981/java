@@ -25,7 +25,10 @@
 		-> Powder
 
 
-3. <T extends 클래스>
+3. <T extends 자료형 클래스>
+T는 처음부터 지정된 자료형 클래스 부터 시작 -> 대입된 자료형으로 형변환
+(extends가 없으면)T -> Object -> 형변환
+
 
 4. 제네릭 메서드 
  제네릭 -> 메서드에서 한정
@@ -34,3 +37,26 @@
  -> static 메서드도 제네렉 형태로 활용 가능
  
  대입된 자료형이 결정되는 시점? 메서드가 호출되는 시점(스택에 올라가 있을때)
+ 
+ Object material
+ 
+ Powder p2 = (Powder)printer.getMaterial();
+ 
+ Object 자료형 -> 다형성으로 접근이 가능 -> 원래 자료형으로 돌아가려면(형변환)
+ 
+ 자료형 매개변수 T와 static 
+ 
+ public static<T,V> double makeRectangle(Point<T, V> p1, Point<T, V> p2) {
+ 
+ }
+ 
+ class Point<T, V> {
+ 
+ }
+ 
+ 
+ class Shape<T> {
+	 public static<T,V> double makeRectangle(Point<T, V> p1, Point<T, V> p2) {
+ 
+	}
+ }
