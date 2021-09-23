@@ -28,6 +28,13 @@ Collection 인터페이스
 		
 Map 인터페이스
 (Key - Value 쌍의 자료 구조)
+Key -> Value를 찾기 위한 데이터
+Key -> 유일한 값(Set 자료형(집합))
+
+Value -> 중복 -> Collection 
+
+
+
 	HashMap 
 	TreeMap - HashMap + 정렬(키 값)
 				정렬(java.lang.Comparable -> compareTo  양수(오름차순), 0, 음수(내림차순) -> 이진트리 방식
