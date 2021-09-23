@@ -16,7 +16,9 @@ public class Ex2 {
 				Statement stmt = conn.createStatement()) {
 			System.out.println("연결 성공!");
 			
-			String sql = "SELECT * FROM Book";
+			//String sql = "SELECT * FROM Book";
+			String publisher2 = "대한미디어";
+			String sql = "SELECT * FROM Book WHERE publisher='" + publisher2 + "'";
 			ResultSet rs = stmt.executeQuery(sql);
 			while(rs.next()) { // 다음 투플이 있으면 true, 없으면 false 
 				int bookid = rs.getInt("bookid");
