@@ -29,16 +29,19 @@ public class MemberHashMap {
 	
 	/** 조회 */
 	public void showMembers() {
-		// Map -> 순서 X, Key값이 Set 자료형 -> Set에서 Iterator 사용 
+		// Map -> 순서 X, Key값이 Set 자료형 -> Set에서 Iterator 사용
+		/*
 		Iterator<Integer> ir = members.keySet().iterator();
 		/** 
 		 * hasNext() -> 다음 요소가 있는지 체크, true, false 
 		 * next() -> 다음 요소
-		 */		
+		 */
+		/*
 		while(ir.hasNext()) {
 			int key = ir.next();
 			Member member = members.get(key);
 			System.out.println(member);
 		}
+		*/
 	}
 }
