@@ -11,14 +11,20 @@ public class Ex1 {
 		 * 			  - 내림차순
 		 *           - final 클래스 - 상속 불가, compareTo 재정의 불가
 		 *           - java.util.Comparator, int compare
+		 *           @Functional Interface -> 람다식
 		 */
 		
 		Comparator<Integer> com = new Comparator<>() {
-			
+
+			@Override
+			public int compare(Integer o1, Integer o2) {
+				return o1.compareTo(o2) * -1;
+			}
 		};
 		
 		
-		TreeMap<Integer, String> list = new TreeMap<>();
+		//TreeMap<Integer, String> list = new TreeMap<>(com);
+		TreeMap<Integer, String> list = new TreeMap<>((Integer o1, Integer o2) -> o1.compareTo(o2) * -1);
 		list.put(1002, "이름3");
 		list.put(1000, "이름1");
 		list.put(1001, "이름2");
