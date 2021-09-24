@@ -5,6 +5,11 @@ import java.util.Arrays;
 
 public class Ex5 {
 	public static void main(String[] args) throws ClassNotFoundException {
+		if (args.length == 0) {
+			System.out.println("사용법 확인 요망");
+			System.exit(0);
+		}
+
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		
 		String url = "jdbc:mysql://localhost:3306/madang";
