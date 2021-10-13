@@ -19,7 +19,7 @@
     <fullyQualifiedTypeName name="java.text.NumberFormat"/>
     <fullyQualifiedTypeName name="chapter11_3.Book"/>
     <fullyQualifiedTypeName name="chapter11_6.Book"/>
-    <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
 </qualifiedTypeNameHistroy>
