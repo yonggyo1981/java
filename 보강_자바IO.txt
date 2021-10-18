@@ -1,0 +1,23 @@
+1. 인스턴스 상태 그대로 저장, 읽을때	
+   ObjectOutputStream  - 인스턴스 상태 그대로 저장
+   ObjectInputStream - 인스턴 상태 그대로 읽어 오는 것 
+	
+	Serializable -> 전체 인스턴스 상태(+필요한 부분만 transient 사용하여 제외)
+	
+	
+	Externalizable -> 저장할 부분만 따로 지정해서 저장
+		- writeExternal
+		- readExternal
+ 
+	멤버 변수만 -> 저장
+	
+2. File 클래스 - 파일이라는 개념을 추상화 한 클래스
+				  - 파일과 관련된 유용한 메서드, 속성
+				  
+3. RandomAccessFile 클래스
+- 입력, 출력을 동시에 할 수 있는 클래스
+- DataInput, DataOutput 인터페이스를 구현 
+
+
+
+	
