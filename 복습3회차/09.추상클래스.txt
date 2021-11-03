@@ -10,3 +10,15 @@
 	2) 공통적
 		
 	3) 다형성 
+	
+	4) 템플릿 메서드
+		-> 절차에 대한 부분을 정의
+		-> 반드시 지켜야 하는 절차
+		-> final -> 재정의를 통해서 변경 X 
+		
+final class -> 상속불가 
+final public void method(); // 재정의 불가
+final 변수 ->  상수
+public final int num = 10; 
+294
+
