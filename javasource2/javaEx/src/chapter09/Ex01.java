@@ -8,5 +8,7 @@ public class Ex01 {
 		human.move();
 		tiger.move();
 		eagle.move();
+		
+		human.commonMethod();
 	}
 }
