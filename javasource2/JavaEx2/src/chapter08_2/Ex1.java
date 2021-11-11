@@ -13,7 +13,11 @@ public class Ex1 {
 		
 		for (Animal animal : animals) {
 			animal.move();
-		}
+			if (animal instanceof Human) {
+				Human h = (Human)animal;
+				h.reading();
+			}
+		} 
 		
 	}
 }
