@@ -1,0 +1,160 @@
+02. 변수와 자료형
+	자료형 - 기본자료형 
+				byte - 1byte
+				short - 2byte
+				char - 2byte - > 양의 정수(unsigned)
+				int  - 4byte (자바 기본 정수형)  -> byte num = 10;  -> int num 10 -> (byte)int 
+				long  - 8byte 
+					long num = 1000000000000; -> int num = 1000000000000;
+					long num = 1000000000000L;
+					
+					int num1 = 10;
+					int num2 = 10;
+					
+					
+				float - 실수 - 4byte  -> f, F 
+				double - 실수 - 8byte (자바 기본 실수형) 
+				
+				float num = 3.14 -> double num = 3.14  -> (float)num 
+				float num = 3.14f
+				
+				묵시적 형변환
+				작은 자료형 -> 큰자료형에 대입 
+				byte num1 = 10;
+				int num2 = num1; 
+				
+				덜 정밀한 자료형 -> 더 정밀한 자료형으로 대입
+				
+				byte -> short -> int -> long  -> float -> double 
+				
+				명시적 형변환
+				double num = 3.14 -> int 
+				int num1 = (int)num;
+				
+				boolean 
+				
+	         - 참조자료형 
+				클래스 형태의 자료형
+				Person Class 
+				
+				Person person = new Person();
+	
+				인스턴스의 주소
+				
+				예)
+				String
+				String text = new String("abc"); ( text에는 new String("abc") 인스턴의 주소)
+				String text3 = new String("abc");
+				text == text3 --> 주소가 다르다.
+				
+				String text1 = "abc"; // 문자열 상수(데이터 영역의 동일 주소)
+				String text2 = "abc";
+				
+				text1 == text2 --> true
+				
+				데이터 영역 -> 코드 & 상수영역
+				
+03. 자바의 여러가지 연산자
+	산술연산자
+	비교 연산자 ( >, <, == )
+	논리연산자(&&, || !)
+	대입 연산자
+		int num = 10;
+	
+	복합 대입 연산자
+		int num = 10;
+		num = num + 2;   // num += 2;
+	
+	증감 연산자(1씩 증가, 1씩 감소)
+		int num = 10;
+		int num2 = ++num; // num의 연산 -> 대입
+		int num2 = num++; // num2 ? 10 -> 대입부터 먼저, num의 연산
+		
+	삼항 조건 연산자
+	 (조건...) ? 참일때 : 거짓일때; 
+		return (rs > 1)?true:false;
+	
+	(10 + 20) * 3
+	
+	제일 우선순위가 높은 (   ) 
+	
+	제일 낮은 우선 순위 = (대입)
+	
+	
+	int result = 10 + 20;
+	
+	비교  >  논리 
+	a > 10 || a < 100
+	
+04. 제어흐름 이해하기
+	조건문 -> if, elseif, else 
+	선택문 -> switch, case, break, default 
+	반복문 
+			while (조건식) { 
+			
+			}
+			do {
+				/// 조건식이 참이든 거짓이든 무조건 한번은 실행
+			} while(조건식);
+			
+			for(초기화; 조건식; 증감식) {
+			
+			}
+			
+			for (자료형 항목 : 배열...) {
+				
+			}
+		
+05. 클래스와 객체
+	객체 -> 상호작용
+		-> 속성(객제를 정의하는 특징)과 함수(행위) - 메서드
+	
+	클래스 -> 객체의 정의
+	class 클래스명 {
+		자료형 변수명;
+		
+		반환자료형 함수명 (.....) {
+		
+		}
+	}
+	
+	반환 자료형 함수명(매개변수1, 매개변수2.... ) {
+		// 함수가 실행되는 영역 
+	}
+	
+	new 연산자 
+	class Person {
+		접근제어자 int age; -> public int age
+		String name;
+		
+		void print() {
+			
+		}
+	}
+	
+	Person person = new Person();
+	
+	person
+	
+	마침표 연산자 -> 객체(인스턴스) 내부의 변수, 함수에 접근 
+	person.print();
+	
+	접근제어자 
+		public 
+		default(접근제어자 없을때) - 같은 패키지 안에서 접근이 가능(내부, 외부)
+		protected 
+		private - 같은 클래스 내부에서만 접근이 가능
+	
+	
+06. 클래스와 객체2
+
+
+07. 배열과 ArrayList
+08. 상속과 다형성
+09. 추상클래스
+10. 인터페이스
+11. 기본클래스
+12. 컬렉션 프레임워크
+13. 내부클래스, 람다식, 스트림
+14. 예외처리
+15. 자바 입출력
