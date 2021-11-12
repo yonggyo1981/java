@@ -244,11 +244,64 @@
 			절차, 실행 순서
 		
 10. 인터페이스
-
+  추상 메서드로만 구성(abstract)
+  구현 부분이 없는 정의만 있는 메서드
+   interface 
+   implements 
+   
+   인터페이스는 구현부분이 없으므로 외부에서 인스턴스 생성 불가
+   -> 멤버변수는 사용 불가
+   -> 정적 상수 정의 가능 
+   
+   default 메서드 ->  구현된 클래스에서 인스턴스가 만들어지면 사용할 수 있는 메서드
 
 12. 컬렉션 프레임워크
+	Collection 인터페이스 
+		- List 인터페이스 - 순차 자료구조 
+								   -> 순서가 있는 자료,  중복 가능  -> 배열객체 
+			ArrayList  -> Object[] - 물리적 순서 
+						-> 조회가 빠르다 
+						-> 데이터의 추가, 수정, 삭제에 불리
+			LinkedList -> 논리적 순서
+						 -> 데이터의 추가, 수정, 삭제에 유리 
+						 -> 조회는 ArrayList 보다는 불리 
+						 
+						 .add
+						 .get
+						 .remove
+						 .iterator
+			
+	    - Set 인터페이스 - 집합 자료구조
+								  -> 중복 X, 순서 X 
+				HashSet  
+							- Object - hashcode, equals 
+				TreeSet  - 순서가 있는 Set 
+							-> comparable, Comparator 
+				
+	Map 인터페이스 - (키,값) 쌍
+		- HashMap -> 키, 값  
+							키 -> 중복 X -> Set -> iterator
+							값 -> 중복 가능
+							
+							Iterator -> hasNext() -> next()
+							Enumeration -> hasMoreElements(), nextElement()
+		- TreeMap
+						-> -> Comparable(compareTo, Comparator - compare
 
-11. 기본클래스
 13. 내부클래스, 람다식, 스트림
+	내부 클래스
+		- 인스턴스 내부 클래스
+		
+		- 정적 내부 클래스
+		
+		- 지역 내부 클래스
+			- 추상클래스, 인터페이스(미 구현된 메서드를 구현 함으로써)의 인스턴스 생성 가능 
+			- 람다식
+			
+		- 익명 내부 클래스
+			return new 클래스명();
+		
+11. 기본클래스
+
 14. 예외처리
 15. 자바 입출력
