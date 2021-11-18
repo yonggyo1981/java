@@ -1,6 +1,6 @@
 package chapter11;
 
-public class Book {
+public class Book implements Cloneable {
 	private int price;
 	private String title;
 	
@@ -11,6 +11,10 @@ public class Book {
 	
 	public String getTitle() {
 		return title;
+	}
+	
+	public void setTitle(String title) {
+		this.title = title;
 	}
 	
 	public int getPrice() {
@@ -29,5 +33,12 @@ public class Book {
 	public String toString() {
 		return "책 이름 : " + title + ", 가격 : " + price;
 	}
+
+	@Override
+	public Object clone() throws CloneNotSupportedException {
+		// TODO Auto-generated method stub
+		return super.clone();
+	}
+	
 	
 }

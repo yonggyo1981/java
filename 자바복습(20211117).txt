@@ -6,9 +6,29 @@
 	3. Object 클래스 메서드
 		toString() 
 		equals()
-		hashcode() 
+		hashCode() 
 		clone()
 	
 2) String 클래스
+	문자열은 불변 -> 새로운 문자열을 추가 하면 -> 새로운 인스턴스가 계속 생성
+	(메모리에 부담)
+	
+	-> 버퍼
+	StringBuffer, StringBuilder
+	
+	
 3) Wrapper 클래스
+	기본자료형에 매칭이 되는 클래스
+	boolean - Boolean 
+	int  - Integer 
+	byte - Byte 
+	short - Short 
+	double - Double
+	float - Float
+	...
+	char - Character 
+	
+	오토박싱 -> 기본 자료형 -> Wrapper 클래스 자료형으로 자동 변환
+	언박싱 -> Wrapper 클래스 -> 기본 자료형 자동 변환
+
 4) Class 클래스
