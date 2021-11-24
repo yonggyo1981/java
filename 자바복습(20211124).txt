@@ -1,0 +1,36 @@
+12 - 1. 제네릭 
+
+제네릭 클래스 
+클래스<T> {
+	public T 변수;
+	
+	public T 메서드명(...) { 
+		return T;
+	}
+}
+
+T, E, K,  V
+Type Key, Element
+
+제네릭 자료형으로 대입된 자료형으로 대체 되는 시점 -> 인스턴스가 생성되는 시점 
+	- 정적(static) 변수, 정적(static) 메서드에서는 사용 불가
+
+
+컴파일 되는 시점에 T은 일단 Object
+<T extends 참조 자료형> -> 컴파일 시점에 Object가 아니라 참조 자료형으로 일단 T 자료형을 결정 
+	
+
+제네릭 메서드 
+	- 메서드가 호출 될때 자료형이 결정이 된다.
+
+
+12 - 2. 컬렉션 프레임워크
+Collection 인터페이스 
+	- List 인터페이스 - 순차자료 구조 - 배열 
+			- ArrayLIst -> Object[]
+			- LInkedlist 
+			- Vector, 
+			- stack, Queue
+	- Set 인터페이스
+
+Map 인터페이스
