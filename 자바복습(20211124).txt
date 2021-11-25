@@ -26,11 +26,39 @@ Type Key, Element
 
 12 - 2. 컬렉션 프레임워크
 Collection 인터페이스 
-	- List 인터페이스 - 순차자료 구조 - 배열 
-			- ArrayLIst -> Object[]
-			- LInkedlist 
-			- Vector, 
-			- stack, Queue
-	- Set 인터페이스
-
+	- List 인터페이스 - 순차 자료구조 -> 인덱스번호로 조회
+			- ArrayList  - 배열 객체 -> Object[] -> 10
+							- 자료 조회가 매우 유리 
+							- 추가, 수정, 삭제가 불리 
+			- LinkedList -> 
+						요소[다음 요소의 주소]  - 요소[다음 요소의 주소]
+										요소[
+						단점 - 자료조회가 ArrayList보다는 불리
+						장점 - 자료의 추가,  삭제 유리 
+			- Vector
+			- Stack, 
+			_ Queue
+	- Set 인터페이스 - 집합 자료구조
+							- 중복이 없는 자료
+							- 순서 X 
+			HashSet 
+					Object.equals, Object.hashCode -> 논리적 중복 X
+			TreeSet  - HashSet + 정렬 
+					정렬의 기준은 
+					-> java.lang.Comparable 인터페이스 - compareTo 를 구현함으로써 
+					-> java.util.Comparator 인터페이스 - compare
+	
 Map 인터페이스
+	key - value쌍 자료 구조 
+	
+	HashMap - key - value 
+				 - key - Set 집합자료
+				 - Value - List
+				
+	TreeMap  - HashMap + 정렬( 키값 정렬)
+								- 정렬의 기준 
+								-> java.lang.Comparable - compareTo 정의 
+								-> java.util.Comparator - compare 정의 
+								
+	
+	
