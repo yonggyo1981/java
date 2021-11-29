@@ -16,7 +16,7 @@ public class Ex2 {
 			return false;
 		});
 		
-		System.out.println(nums)
+		System.out.println(nums);
 		
 	}
 	
